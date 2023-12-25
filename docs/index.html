@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="">
+        <meta name="description" content="Create a todo list with this app!">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="todo.css">
+        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eo_circle_green_checkmark.svg/1200px-Eo_circle_green_checkmark.svg.png">
+        <title>Todo App</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+            #todoList {
+                list-style-type: none;
+                padding: 0;
+            }
+            #todoList li {
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 align="center">Todo List</h1>
+        
+        <form id="addForm" align="center">
+            <label for="title">Task:</label>
+            <input type="text" id="title" required>
+            <button type="button" onclick="addTodo()">Add</button>
+        </form>
+
+        <ul id="todoList"></ul>
+
+        <script type="text/javascript" src="todo.js"></script>
+    </body>
+</html>
