@@ -23,7 +23,7 @@
 
 ## Game
 
-Welcome to BubbleBust, an exciting and fast-paced JavaScript game that tests your reflexes and clicking skills! Embark on a journey where you start at level one and strive to advance through each level by clicking on bubbles before the timer runs out.
+Welcome to BoyManWamen's Todo App – a feature-rich and highly customizable task management solution designed to streamline your daily workflow. This open-source project empowers users to take control of their tasks with a robust set of features and a user-friendly interface.
 
 ### Installing
 
